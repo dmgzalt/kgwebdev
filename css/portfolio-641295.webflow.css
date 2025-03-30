@@ -451,7 +451,7 @@
   opacity: 1;
   text-align: left;
   background-color: #9ea9ff;
-  background-image: url('../images/background-vector3.png');
+  background-image: url('../images/background-vector2.png');
   background-position: 0 0;
   background-repeat: repeat;
   background-size: 100%;
@@ -938,7 +938,7 @@
 
 .slide-nav {
   margin-top: 0;
-  margin-bottom: -39px;
+  margin-bottom: -52px;
 }
 
 .div-block-41 {
@@ -1003,7 +1003,7 @@
 }
 
 .slide-nav-2 {
-  margin-bottom: -39px;
+  margin-bottom: -49px;
 }
 
 .div-block-49 {
