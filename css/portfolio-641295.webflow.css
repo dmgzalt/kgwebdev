@@ -2850,6 +2850,7 @@
 
 .footer-copyright {
   color: #fff;
+  text-align: left;
 }
 
 .footer-legal-block {
@@ -2868,7 +2869,7 @@
 }
 
 .heading-45 {
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -2970,6 +2971,14 @@
 .paragraph {
   font-size: 23px;
   line-height: 28px;
+}
+
+.link-3 {
+  color: #bcc9dc;
+}
+
+.link-3.w--current {
+  color: #fff;
 }
 
 @media screen and (max-width: 991px) {
