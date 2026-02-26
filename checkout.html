@@ -1,10 +1,10 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Thu Feb 26 2026 03:18:04 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6889c469d27ea9750f3a6c1e" data-wf-site="687f2ae0b4510576240f4cbe">
+<html data-wf-page="699e86e6a1bbc9fead4df81f" data-wf-site="687f2ae0b4510576240f4cbe">
 <head>
   <meta charset="utf-8">
-  <title>Marketing Request</title>
-  <meta content="Marketing Request" property="og:title">
-  <meta content="Marketing Request" property="twitter:title">
+  <title>Checkout</title>
+  <meta content="Checkout" property="og:title">
+  <meta content="Checkout" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -38,11 +38,45 @@
       </div>
     </div>
   </div>
-  <section class="section-7">
-    <h1 class="heading-60"><em class="italic-text-2">Disclaimer: By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message &amp; data rates may apply. You can reply STOP to opt-out of further messaging.</em></h1>
-  </section>
-  <div class="div-block-120">
-    <div class="w-embed w-iframe"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-heEJyXs7jTb3eUyAo4xSqA1rmlzGoMm8fSDwMT6077xV2w/viewform?embedded=true" width="100%" height="800px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+  <div class="div-block-131">
+    <div class="div-block-132">
+      <h1 class="heading-62-copy">KG Website Development Basic Website Hosting + Setup ($25/month)</h1>
+      <h1 class="heading-64">Our basic hosting plan provides year-round website hosting for small businesses who want a quality website to help them grow on google/facebook/linkedin etc. Website edits will be made within 48 hours of you asking at any time. Please speak with us before ordering.<br><br>Call or text <a href="tel:+12312614564">(231) 261-4564</a> to get service.<br>To see more information, please read our <a href="privacy-policy.html">Privacy Policy</a>.</h1>
+    </div>
+    <div class="div-block-130">
+      <h1 class="heading-62">Subscription Summary</h1>
+      <div class="div-block-133">
+        <h1 class="heading-63">Basic Website Subscription &amp; Domain Setup:<br>$25/month</h1>
+        <div class="div-block-134"></div>
+        <div class="div-block-135">
+          <div>Total due</div>
+          <div>$25.00 USD</div>
+        </div>
+        <div class="w-embed w-script">
+          <div id="paypal-button-container-P-21135367RR6465454NGPIQDA"></div>
+          <script src="https://www.paypal.com/sdk/js?client-id=AQnKM9yZvY-5rjQKUJIOYDP0AdKcd3ocIuD-dwt5T5EHdEiLItvsILCex-6X5TE0DaWTelrUYVJgllZF&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+          <script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-21135367RR6465454NGPIQDA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-21135367RR6465454NGPIQDA'); // Renders the PayPal button
+</script>
+        </div>
+      </div>
+    </div>
   </div>
   <div>
     <div class="divider"></div>
@@ -58,7 +92,7 @@
         </div>
         <div class="footer-divider-two"></div>
         <div class="footer-bottom">
-          <div class="footer-copyright">© 2026 KG Digital LLC<br>
+          <div class="footer-copyright">© 2026 KG Digital LLC<br>
             <a href="privacy-policy.html" class="link-3">Privacy Policy</a>
           </div>
           <section>
